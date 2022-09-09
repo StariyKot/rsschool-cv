@@ -1,7 +1,5 @@
 # Mikhail Zhdanovich
 
----
-
 # Junior Frontend Developer, JAVA, C++
 
 ## Contact information
@@ -14,8 +12,6 @@
 - GitHub: [StariyKot](https://github.com/StariyKot "Accoun GitHub")
 - CodePen: [StariyKot](https://codepen.io/StariyKot "Account CodePen")
 - Discord: [StariyKot#7100](https://discordapp.com/users/StariyKot#7100/ "StariyKot#7100")
-
----
 
 # Personal information
 
