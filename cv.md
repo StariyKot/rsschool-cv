@@ -4,8 +4,6 @@
 
 # Junior Frontend Developer, JAVA, C++
 
----
-
 ## Contact information
 
 - Email: <a href="mailto:wertyby@gmail.com" target="\_blank">wertyby@gmail.com</a>
