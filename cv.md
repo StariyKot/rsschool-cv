@@ -65,3 +65,6 @@ At the same time, I realized that most of all I would like to create software an
 - English A1;
 
 ---
+## Photo
+
+![](https://github.com/StariyKot/rsschool-cv/raw/gh-pages/image/IMG_1.jpg "rsschool")
