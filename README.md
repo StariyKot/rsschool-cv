@@ -1,0 +1,1 @@
+https://StariyKot.github.io/rsschool-cv/
