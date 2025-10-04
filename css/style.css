@@ -1,15 +1,52 @@
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding: 0 20px;
+  line-height: 50px;
+}
+
+a{
+margin-left: 10px;
+margin-right: 10px;
+color: black;
+text-decoration: none;
+font-family: Bitcount;
+font-size: 18px;
+line-height: 25px;
+}
+
 @font-face {
   font-family: Roboto;
   src: url("assets/fonts/Roboto.ttf");
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* все элементы размещаются на максимальном расстоянии друг от друга, крайние прижаты к границам родителя*/
 }
 
 * {
   box-sizing: border-box;
 }
 
-* {
-  border: 1 px dashed blue;
+main,
+header,
+footer {
+  border: 1px solid red;
 }
