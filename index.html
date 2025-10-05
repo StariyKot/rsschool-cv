@@ -9,9 +9,11 @@
   </head>
   <body>
     <header>
-      <div class="container">
-        <nav class="nav">
-          <ul class="nav-list">
+      <div class="container header">
+        <button class="menu-toggle" aria-label="Открыть меню">>☰
+<</button>
+        <nav class="nav collapsed">
+          <ul class="nav-list collapsed">
             <li class="nav-item">
               <a href="#contacts" class="nav-link">Contacts</a>
             </li>
@@ -41,101 +43,110 @@
       </div>
     </header>
 
-    <main>
-      <div class="container">
-        <section class="section" id="profile">
-          <h2>Профиль</h2>
-          <img src="assets/img/IMG_1.jpg" alt="Мое фото" />
-          <h3>Михаил Жданович</h3>
+    <main class="container">
+      <!--<div class="container">-->
+      <section class="section full-width container" id="profile">
+        <h1 class="section-title">Профиль</h1>
+       <div class="section-content">
+        <div class="column">
+        <img
+          src="assets/img/IMG_1.jpg"
+          alt="Мое фото"
+          class="profile-photo"
+        />
+        </div>
+        <div class="column">
+            <h3>Михаил Жданович</h3>
           <p>Фронтенд разработчик</p>
-        </section>
-        <section class="section" id="contacts">
-          <h2>Контакты</h2>
-          <ul>
-            <li>Email: wertyby@gmail.com</li>
-            <li>Phone: +3751234567</li>
-            <li>Telegram: Glazzys</li>
-            <li>WhatsApp: +37291234567</li>
-            <li>GitHub: StariyKot</li>
-            <li>CodePen: StariyKot</li>
-            <li>Discord: StariyKot#7100</li>
-          </ul>
-        </section>
-        <section class="section" id="summary">
-          <h2>О себе</h2>
-          <p>
-            Briefly about myself: In the 2000s, since the purchase of the first
-            computer, I became interested in computer technology.
-          </p>
-          <p>
-            Working in a state organization, as far as possible, he
-            independently studied the PC and the principles of work.
-          </p>
-          <p>
-            For some time he worked in the information department, filling in
-            databases, as well as working with various reporting documentation.
-            At the same time, he began developing summary reports in MS Excel to
-            automate the workflow, and developing simple databases using SQLite
-            and Pascal. In the future, continuing the process of self-learning,
-            he moved to the position of lead engineer, servicing all the
-            electronics of the organization, both at the physical and software
-            levels.
-          </p>
-          <p>
-            At the same time, I realized that most of all I would like to create
-            software and entered the University in this direction and at the
-            moment I am actively studying programming languages.
-          </p>
-        </section>
-        <section class="section" id="skills">
-          <h2>Навыки</h2>
-          <ul>
-            <li>HTML, CSS, JavaScript</li>
-            <li>GitHub</li>
-            <li>VS Code, Intellij IDEA</li>
-          </ul>
-        </section>
-        <section class="section" id="code">
-          <h2>Пример кода</h2>
-          <pre><code>function multiply(a, b){ return (a * b) } </code></pre>
-        </section>
-        <section class="section" id="courses">
-          <h2>Курсы</h2>
-          <ul>
-            <li>
-              <a href="https://stepik.org/cert/822925">Introduction to C++</a>
-            </li>
-            <li>
-              <a href="https://stepik.org/cert/1353458"
-                >Algorithms: theory and practice. Methods.</a
-              >
-            </li>
-            <li>
-              <a href="https://stepik.org/cert/1353839"
-                >Algorithms: theory and practice. Data structures.</a
-              >
-            </li>
-          </ul>
-        </section>
-        <section class="section" id="education">
-          <h2>Образование</h2>
-          <ul>
-            <li>College - Electrical Technician;</li>
-            <li>
-              Academy of the Ministry of Internal Affairs - Jurisprudence;
-            </li>
-            <li>Polotsk State University - "Information Technologies"</li>
-          </ul>
-        </section>
-        <section class="section" id="languages">
-          <h2>Языки</h2>
-          <ul>
-            <li>Belorussian;</li>
-            <li>English A1;</li>
-            <li>Russian;</li>
-          </ul>
-        </section>
-      </div>
+        </div>
+       </div>
+      </section>
+<div class="sections-grid">
+      <section class="section" id="contacts">
+        <h2 class="section-title">Контакты</h2>
+        <ul>
+          <li>Email: wertyby@gmail.com</li>
+          <li>Phone: +3751234567</li>
+          <li>Telegram: Glazzys      </li>
+          <li>WhatsApp: +37291234567</li>
+          <li>GitHub: StariyKot</li>
+          <li>CodePen: StariyKot</li>
+          <li>Discord: StariyKot#7100</li>
+        </ul>
+      </section>
+      <section class="section" id="summary">
+        <h2 class="section-title">О себе</h2>
+        <p>
+          Briefly about myself: In the 2000s, since the purchase of the first
+          computer, I became interested in computer technology.
+        </p>
+        <p>
+          Working in a state organization, as far as possible, he independently
+          studied the PC and the principles of work.
+        </p>
+        <p>
+          For some time he worked in the information department, filling in
+          databases, as well as working with various reporting documentation. At
+          the same time, he began developing summary reports in MS Excel to
+          automate the workflow, and developing simple databases using SQLite
+          and Pascal. In the future, continuing the process of self-learning, he
+          moved to the position of lead engineer, servicing all the electronics
+          of the organization, both at the physical and software levels.
+        </p>
+        <p>
+          At the same time, I realized that most of all I would like to create
+          software and entered the University in this direction and at the
+          moment I am actively studying programming languages.
+        </p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Навыки</h2>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>GitHub</li>
+          <li>VS Code, Intellij IDEA</li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Пример кода</h2>
+        <pre><code>function multiply(a, b){ return (a * b) } </code></pre>
+      </section>
+      <section class="section" id="courses">
+        <h2 class="section-title">Курсы</h2>
+        <ul>
+          <li>
+            <a href="https://stepik.org/cert/822925">Introduction to C++</a>
+          </li>
+          <li>
+            <a href="https://stepik.org/cert/1353458"
+              >Algorithms: theory and practice. Methods.</a
+            >
+          </li>
+          <li>
+            <a href="https://stepik.org/cert/1353839"
+              >Algorithms: theory and practice. Data structures.</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">Образование</h2>
+        <ul>
+          <li>College - Electrical Technician;</li>
+          <li>Academy of the Ministry of Internal Affairs - Jurisprudence;</li>
+          <li>Polotsk State University - "Information Technologies"</li>
+        </ul>
+      </section>
+      <section class="section" id="languages">
+        <h2 class="section-title">Языки</h2>
+        <ul>
+          <li>Belorussian;</li>
+          <li>English A1;</li>
+          <li>Russian;</li>
+        </ul>
+      </section>
+      <!--</div>-->
+</div>
     </main>
 
     <footer>
