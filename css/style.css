@@ -82,6 +82,7 @@ background-color: rgb(98, 184, 196);
   justify-content: center;
   padding: 20px;
   border-radius: 8px;
+  background-color: #f0f0f0;
   
  
 }
@@ -98,7 +99,7 @@ background-color: rgb(98, 184, 196);
 flex: 1 1  45%;
 min-width: 300;
 padding: 20px;
-background-color: #f0f0f0;
+/*background-color: #f0f0f0;*/
 border-radius: 8px;
 box-sizing: border-box;
 
@@ -198,8 +199,8 @@ color: #4d2323;
   box-sizing: border-box;
 }
 
-main,
+/*main,
 header,
 footer {
   border: 1px solid red;
-}
+}*/
